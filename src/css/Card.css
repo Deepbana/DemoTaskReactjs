@@ -1,0 +1,18 @@
+.ant-card .ant-card-body {
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .customer-order-search-input{
+        width: 100% !important;
+    }
+    .all-filter-btn{
+        flex-wrap: wrap;
+    }
+    .tabel-data-customers .ant-table-container{
+        max-width: 256px;
+        overflow: auto;
+    }
+}
+
+  

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Rubik", sans-serif !important;
+}
+
+.ant-menu-item-selected,
+.ant-menu-light > .ant-menu .ant-menu-item-selected {
+  background-color: #5570f1 !important;
+  color: white !important;
+}
+
+.ant-menu-light.ant-menu-inline .ant-menu-item,
+.ant-menu-light > .ant-menu.ant-menu-inline .ant-menu-item {
+  margin-top: 20px;
+}
+
+.ant-layout-sider-trigger {
+    background: #5570f1 !important;
+    border-radius: 0px 10px 10px 0px;
+}
+.sidebar-bottom {
+  margin-top: 200px;
+}
+
+.logout-icon {
+  margin-right: 10px;
+}
+.MuiPaper-root ,.MuiPaper-elevation .MuiPaper-elevation4 .MuiAppBar-root .MuiAppBar-colorPrimary .MuiAppBar-positionStatic .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: #000 !important;
+  max-height: 64px;
+}
+
+.logout-icon{
+  margin: 10px 15px !important;
+}
+
+/* dashboard */
+.dashboard {
+  padding: 20px;
+}
+
+span.ant-menu-title-content {
+  margin-right: 0px !important;
+}
+
+.custom-card {
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  text-align: left;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.card-footer .percentage {
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.gift-seection{
+  background: #FFCC91;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.ant-picker {
+  height: 32px;
+}
+.ant-picker-input input {
+  font-size: 12px !important;
+  width: 70px !important;
+}
+
+:where(.css-dev-only-do-not-override-98ntnt).ant-menu-inline {
+  width: auto;
+}
